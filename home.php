@@ -15,19 +15,43 @@
 </style>
 <body style="text-align:center">
 
+<header>
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="./home.php">CRUD OPERATION</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item" style="margin-left:50px">
+        <a class="nav-link" href="./home.php">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item" style="margin-left:25px">
+        <a class="nav-link" href="https://github.com/AK20399/Php_CRUD.git">Git Repo</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</header>
+
+
+
+<section style="margin-top:100px">
 <div class="container">
-<h1 style="margin-top:30px;margin-bottom:50px;">Crud operation on Mysql using php</h1>
+<h1 style="margin-top:30px;margin-bottom:50px;text-decoration:underline">Crud operation on Mysql using php</h1>
 <?php 
 include('./phpstuff/connect.php')
 ?>
-
-<h3><a href="./db/db.php">Create Database</a></h3>
-<h3><a href="./db/deletedb.php">Delete Database</a></h3>
-<h3>    <a href="./insert/insert.php">Create in Mysql</a></h3>
-<h3>    <a href="./read/read.php">Read in Mysql</a></h3>
-<h3>    <a href="./update/update.php">Update in Mysql</a></h3>
-<h3>    <a href="./delete/delete.php">Delete in Mysql</a></h3>
+<div class="list-group">
+<h3><a class="list-group-item list-group-item-action list-group-item-primary" href="./db/db.php">Create Database</a></h3>
+<h3><a class="list-group-item list-group-item-action list-group-item-primary" href="./db/deletedb.php">Delete Database</a></h3>
+<h3>    <a class="list-group-item list-group-item-action list-group-item-primary" href="./insert/insert.php">Create in Mysql</a></h3>
+<h3>    <a class="list-group-item list-group-item-action list-group-item-primary" href="./read/read.php">Read in Mysql</a></h3>
+<h3>    <a class="list-group-item list-group-item-action list-group-item-primary" href="./update/update.php">Update in Mysql</a></h3>
+<h3>    <a class="list-group-item list-group-item-action list-group-item-primary" href="./delete/delete.php">Delete in Mysql</a></h3>
 </div>
-
+</div>
+</section>
 </body>
 </html>
