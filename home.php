@@ -17,6 +17,11 @@
 
 <div class="container" style="text-align:center">
 <h1 style="margin-top:30px;margin-bottom:50px;">Crud operation on Mysql using php</h1>
+<?php 
+include('./phpstuff/connect.php')
+?>
+<h3><a href="./db/db.php">Create Database</a></h3>
+<h3><a href="./db/deletedb.php">Delete Database</a></h3>
 <h3>    <a href="./insert/insert.php">Create in Mysql</a></h3>
 <h3>    <a href="./insert/read.php">Read in Mysql</a></h3>
 <h3>    <a href="./insert/update.php">Update in Mysql</a></h3>

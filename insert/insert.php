@@ -1,3 +1,12 @@
+    <?php 
+include('.././phpstuff/connect.php');
+if (isset($_REQUEST["submit"]))
+ {
+	$firstname = $_REQUEST["firstname"];
+	$lastname = $_REQUEST["lastname"];
+    echo "firstname: $firstname <br> lastname: $lastname";
+ }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,5 +17,11 @@
 </head>
 <body style="text-align:center">
     <h1>Insert</h1>
-</body>
-</html>
+    <form>
+    <input type="text" name="firstname" placeholder="Enter Your First Name">
+    <input type="text" name="lastname" placeholder="Enter Your Sur Name">
+    <input type="submit" value="Submit" name="submit">
+
+    </form>
+    </body>
+    </html>
