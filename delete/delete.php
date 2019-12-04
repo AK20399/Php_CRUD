@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>delete</title>
 </head>
-<body>
+<body style="text-align:center">
+<h3><a href="../home.php">Go To Home Page</a></h3>
    <h1>Delete</h1> 
    <form>
    <input type="text" name="id" placeholder="Enter Id number"><br><br>

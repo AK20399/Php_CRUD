@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Delete Database</title>
 </head>
-<body>
+<body style="text-align:center">
+<h3><a href="../home.php">Go To Home Page</a></h3>
 <h1>Delete Datbase</h1><br><br>
     <?php
     include('.././phpstuff/connect.php');

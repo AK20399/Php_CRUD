@@ -20,6 +20,7 @@ include('.././phpstuff/connect.php');
     <title>Insert</title>
 </head>
 <body style="text-align:center">
+<h3><a href="../home.php">Go To Home Page</a></h3>
     <h1>Insert</h1>
     <form>
     <input type="text" name="firstname" placeholder="Enter Your First Name"><br>
