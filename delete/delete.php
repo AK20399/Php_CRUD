@@ -22,7 +22,7 @@
         <a class="nav-link" href=".././home.php">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item" style="margin-left:25px">
-        <a class="nav-link" href="https://github.com/AK20399/Php_CRUD.git">Git Repo</a>
+        <a class="nav-link" target="_blank" href="https://github.com/AK20399/Php_CRUD.git">Git Repo</a>
       </li>
     </ul>
   </div>
