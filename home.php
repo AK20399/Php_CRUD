@@ -23,9 +23,9 @@ include('./phpstuff/connect.php')
 <h3><a href="./db/db.php">Create Database</a></h3>
 <h3><a href="./db/deletedb.php">Delete Database</a></h3>
 <h3>    <a href="./insert/insert.php">Create in Mysql</a></h3>
-<h3>    <a href="./insert/read.php">Read in Mysql</a></h3>
-<h3>    <a href="./insert/update.php">Update in Mysql</a></h3>
-<h3>    <a href="./insert/delete.php">Delete in Mysql</a></h3>
+<h3>    <a href="./read/read.php">Read in Mysql</a></h3>
+<h3>    <a href="./update/update.php">Update in Mysql</a></h3>
+<h3>    <a href="./delete/delete.php">Delete in Mysql</a></h3>
 </div>
 
 </body>
